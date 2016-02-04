@@ -11,3 +11,7 @@
 .wufoo li {
 	width: 100%;
 }
+
+.wufoo label.choice {
+	font-weight: normal;
+}
