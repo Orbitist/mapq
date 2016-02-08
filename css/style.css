@@ -51,8 +51,8 @@ form li.focused {
     -webkit-transform: scale(0);
             transform: scale(0); }
   100% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
+    -webkit-transform: scale(3);
+            transform: scale(3);
     opacity: 0.5; } 
 }
 @keyframes clusterPulse {
@@ -60,11 +60,11 @@ form li.focused {
     -webkit-transform: scale(0);
             transform: scale(0); }
   100% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
+    -webkit-transform: scale(3);
+            transform: scale(3);
     opacity: 0.5; } 
 }
 
 .marker-cluster span {
-font-size: 18px;
+position: absolute;
 }
