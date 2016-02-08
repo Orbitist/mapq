@@ -41,8 +41,10 @@ form li.focused {
 }
 
 /** Pulsating Clusters Test **/
-.marker-cluster-small {
+.marker-cluster {
+background-image: url("https://app.orbitist.com/launch/cdn/orbitist-icons/orbitist-icon-blue.png");
 }
+
 .marker-cluster div {
     -webkit-animation: clusterPulse 2s ease-out;
     -webkit-animation-iteration-count: infinite;     
