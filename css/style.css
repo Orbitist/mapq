@@ -42,11 +42,11 @@ form li.focused {
 
 /** Pulsating Clusters Test **/
 .marker-cluster div{
-    -webkit-animation: pulsate 3s ease-out;
+    -webkit-animation: clusterPulse 2s ease-out;
     -webkit-animation-iteration-count: infinite;     
 } 
   
-@-webkit-keyframes pulsate {
+@-webkit-keyframes clusterPulse {
   0% {
     -webkit-transform: scale(0);
             transform: scale(0); }
@@ -54,7 +54,7 @@ form li.focused {
     -webkit-transform: scale(1);
             transform: scale(1);
     opacity: 0; } }
-@keyframes pulsate {
+@keyframes clusterPulse {
   0% {
     -webkit-transform: scale(0);
             transform: scale(0); }
