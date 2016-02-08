@@ -42,8 +42,8 @@ form li.focused {
 
 /** Pulsating Clusters Test **/
 .marker-cluster {
-	background-image: url("https://app.orbitist.com/launch/cdn/orbitist-icons/maki/circle.svg");
-	background-size: 15px 15px;
+	background-image: url("https://app.orbitist.com/launch/cdn/orbitist-icons/orbitist-icon-blue.png");
+	background-size: 30px 30px;
 	background-repeat: no-repeat;
 	background-position: center;
 }
@@ -56,7 +56,12 @@ form li.focused {
 @-webkit-keyframes clusterPulse {
   0% {
     -webkit-transform: scale(0);
-            transform: scale(0); }
+            transform: scale(0);
+    opacity: 0; }
+  50% {
+    -webkit-transform: scale(1.5);
+            transform: scale(1.5);
+    opacity: 1; }
   100% {
     -webkit-transform: scale(3);
             transform: scale(3);
