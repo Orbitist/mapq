@@ -41,12 +41,24 @@ form li.focused {
 }
 
 /** Pulsating Clusters Test **/
-.marker-cluster {
-    -webkit-animation: pulsate 1s ease-out;
+.marker-cluster div{
+    -webkit-animation: pulsate 3s ease-out;
     -webkit-animation-iteration-count: infinite;     
-}   
+} 
+  
 @-webkit-keyframes pulsate {
-    0% {-webkit-transform: scale(0.1, 0.1); opacity: 0.8;}
-    50% {opacity: 1.0;}
-    100% {-webkit-transform: scale(4.2, 4.2); opacity: 0.8;}
-}
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0); }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 0; } }
+@keyframes pulsate {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0); }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 0; } }
