@@ -45,7 +45,6 @@ form li.focused {
 	background-image: url("https://app.orbitist.com/launch/cdn/orbitist-icons/orbitist-icon-blue.png");
 	background-size: 30px 30px;
 	background-repeat: no-repeat;
-	background-attachment: fixed;
 	background-position: center;
 }
 
