@@ -43,7 +43,7 @@ form li.focused {
 /** Pulsating Clusters Test **/
 .marker-cluster {
 	background-image: url("https://app.orbitist.com/launch/cdn/orbitist-icons/maki/circle.svg");
-	background-size: 30px 30px;
+	background-size: 15px 15px;
 	background-repeat: no-repeat;
 	background-position: center;
 }
